@@ -3004,7 +3004,7 @@ function _asyncToGenerator(fn) { return function () { var self = this, args = ar
     attemptUpdate: function attemptUpdate(value) {
       var _this$field$indexTwoS;
 
-      
+      this.value = value;
 
       if ((_this$field$indexTwoS = this.field.indexTwoStepDisabled) !== null && _this$field$indexTwoS !== void 0 ? _this$field$indexTwoS : false) {
         return this.submit();
@@ -3924,7 +3924,7 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
       }
     },
     listenToValueChanges: function listenToValueChanges(value) {
-      
+      this.value = value;
     }
   },
   computed: {

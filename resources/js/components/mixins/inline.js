@@ -43,8 +43,9 @@ export default {
                 });
         },
 
-        attemptUpdate(value) {
-            this.value = value;
+        attemptUpdate() {
+            // Nova 5's SelectControl emits the change Event (not the value).
+            // The selected value is already synced via `v-model:selected="value"`.
 
             if (this.field.indexTwoStepDisabled ?? false) {
                 return this.submit();
