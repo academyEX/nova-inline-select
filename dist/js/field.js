@@ -2629,7 +2629,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
       }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_SelectControl, {
         id: _ctx.field.uniqueKey,
         dusk: _ctx.field.attribute,
-        selected: _ctx.value,
+        modelValue: _ctx.value,
         "onUpdate:modelValue": _cache[0] || (_cache[0] = function ($event) {
           return _ctx.value = $event;
         }),
@@ -2742,7 +2742,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
   }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_SelectControl, {
     id: _ctx.field.uniqueKey,
     dusk: _ctx.field.attribute,
-    selected: _ctx.value,
+    modelValue: _ctx.value,
     "onUpdate:modelValue": _cache[0] || (_cache[0] = function ($event) {
       return _ctx.value = $event;
     }),
@@ -2884,7 +2884,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
       }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Select Input Field "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_SelectControl, {
         id: _ctx.field.attribute,
         dusk: _ctx.field.attribute,
-        selected: _ctx.value,
+        modelValue: _ctx.value,
         "onUpdate:modelValue": _cache[0] || (_cache[0] = function ($event) {
           return _ctx.value = $event;
         }),
