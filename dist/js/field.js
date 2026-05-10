@@ -2630,7 +2630,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
         id: _ctx.field.uniqueKey,
         dusk: _ctx.field.attribute,
         selected: _ctx.value,
-        "onUpdate:selected": _cache[0] || (_cache[0] = function ($event) {
+        "onUpdate:modelValue": _cache[0] || (_cache[0] = function ($event) {
           return _ctx.value = $event;
         }),
         onChange: _ctx.attemptUpdate,
@@ -2656,7 +2656,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
 
       }, 8
       /* PROPS */
-      , ["id", "dusk", "selected", "onChange", "select-classes", "options", "disabled"]), _ctx.showUpdateButton ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createBlock)(_component_BasicButton, {
+      , ["id", "dusk", "modelValue", "onSelected", "select-classes", "options", "disabled"]), _ctx.showUpdateButton ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createBlock)(_component_BasicButton, {
         key: 0,
         "class": "shadow relative ml-2 bg-primary-500 hover:bg-primary-400 active:bg-primary-600 text-white dark:text-gray-900",
         title: _ctx.__('Update'),
@@ -2743,7 +2743,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     id: _ctx.field.uniqueKey,
     dusk: _ctx.field.attribute,
     selected: _ctx.value,
-    "onUpdate:selected": _cache[0] || (_cache[0] = function ($event) {
+    "onUpdate:modelValue": _cache[0] || (_cache[0] = function ($event) {
       return _ctx.value = $event;
     }),
     onChange: _ctx.attemptUpdate,
@@ -2769,7 +2769,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
 
   }, 8
   /* PROPS */
-  , ["id", "dusk", "selected", "onChange", "select-classes", "options", "disabled"]), _ctx.showUpdateButton ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createBlock)(_component_BasicButton, {
+  , ["id", "dusk", "modelValue", "onSelected", "select-classes", "options", "disabled"]), _ctx.showUpdateButton ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createBlock)(_component_BasicButton, {
     key: 0,
     "class": "shadow relative ml-2 bg-primary-500 hover:bg-primary-400 active:bg-primary-600 text-white dark:text-gray-900",
     title: _ctx.__('Update'),
@@ -2885,7 +2885,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
         id: _ctx.field.attribute,
         dusk: _ctx.field.attribute,
         selected: _ctx.value,
-        "onUpdate:selected": _cache[0] || (_cache[0] = function ($event) {
+        "onUpdate:modelValue": _cache[0] || (_cache[0] = function ($event) {
           return _ctx.value = $event;
         }),
         onChange: $options.handleChange,
@@ -2910,7 +2910,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
 
       }, 8
       /* PROPS */
-      , ["id", "dusk", "selected", "onChange", "select-classes", "options", "disabled"])], 2112
+      , ["id", "dusk", "modelValue", "onSelected", "select-classes", "options", "disabled"])], 2112
       /* STABLE_FRAGMENT, DEV_ROOT_FRAGMENT */
       ))];
     }),

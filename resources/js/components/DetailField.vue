@@ -6,8 +6,8 @@
                     <SelectControl
                         :id="field.uniqueKey"
                         :dusk="field.attribute"
-                        v-model:selected="value"
-                        @change="attemptUpdate"
+                        v-model="value"
+                        @selected="attemptUpdate"
                         @click.stop
                         class="w-full md:w-3/5"
                         :select-classes="{ 'form-input-border-error': hasError }"
