@@ -2633,7 +2633,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
         "onUpdate:modelValue": _cache[0] || (_cache[0] = function ($event) {
           return _ctx.value = $event;
         }),
-        onChange: _ctx.attemptUpdate,
+        onSelected: _ctx.attemptUpdate,
         onClick: _cache[1] || (_cache[1] = (0,vue__WEBPACK_IMPORTED_MODULE_0__.withModifiers)(function () {}, ["stop"])),
         "class": "w-full md:w-3/5",
         "select-classes": {
@@ -2746,7 +2746,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     "onUpdate:modelValue": _cache[0] || (_cache[0] = function ($event) {
       return _ctx.value = $event;
     }),
-    onChange: _ctx.attemptUpdate,
+    onSelected: _ctx.attemptUpdate,
     onClick: _cache[1] || (_cache[1] = (0,vue__WEBPACK_IMPORTED_MODULE_0__.withModifiers)(function () {}, ["stop"])),
     "class": "w-full",
     "select-classes": {
